@@ -1,0 +1,127 @@
+
+@font-face {
+    font-family: subway-ticker;
+    src: url("SUBWT___.ttf")
+}
+
+body {
+    margin: 0;
+    text-align: center;
+    background-color: #1c1614;
+    font-family: Helvetica, Arial, sans-serif;
+    color: #efc022;
+    text-shadow: 0 0 2px #F6BC26;
+}
+
+#hero {
+    background-image: url("images/subway.png");
+    background-size: 100% 100%;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family:  "subway-ticker";
+}
+
+.text-bubble {
+    display: flex;
+    justify-content: center;
+    margin: 10px auto 10px auto;
+    color: #efc022;
+    background-color: #1c1614;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: 3px solid #fbdc20;
+}
+
+h3, h4 {
+    margin-bottom: 0;
+    text-decoration: underline;
+}
+
+.activities {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0 auto 15px;
+}
+
+.activity {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.activity h4 {
+    min-height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.description {
+    width: 500px;
+    margin: 10px 20px;
+}
+
+.link {
+    font-family:  "subway-ticker";
+    font-size: smaller;
+    font-weight: bold;
+    color: #1c1614;
+    text-decoration: none;
+    background-color: #efc022;
+    padding: 3px 5px;
+    border: 1px solid #fbdc20;
+    border-radius: 3px;
+}
+
+.img {
+    height: 200px;
+    width: 200px;
+    border-radius: 200px 200px;
+    margin: 5px auto;
+    border: 5px solid #efc022;
+}
+
+#footer {
+    background-color: #eee3c7;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+}
+
+.card {
+    background-color: #1c1614;
+    width: 500px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 10px 50px;
+    border: 5px solid #fbdc20;
+    border-radius: 50px;
+}
+
+#pfp {
+    border-radius: 500px 500px;
+    border: 5px solid #efc022;
+    margin: 0 50px;
+}
+
+@media (max-width: 1650px) {
+  .activities {
+    flex-direction: column;
+  }
+}
+
+
+/*
+Color Palette
+Red= #D82233
+Orange= #EB6800
+Green= #799534
+Purple= #9A38A1
+Yellow= #F6BC26
+Background= #eee3c7
+Text= #fbdc20
+Back= #1c1614
+ */

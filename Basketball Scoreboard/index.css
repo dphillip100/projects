@@ -1,0 +1,81 @@
+@font-face {
+    font-family: ticker-font;
+    src: url("/fonts/cursed-timer-ulil-font/CursedTimer.ttf")
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #EEEEEE;
+    background-color: #1B244A;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    border: 10px solid #EEEEEE;
+    border-radius: 25px;
+    margin: 50px auto;
+    max-width: 900px;
+}
+
+.team {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+}
+
+.options {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+
+.team-name {
+    font-size: 50px;
+    margin: 20px auto;
+}
+
+.score {
+    box-sizing: border-box;
+    background-color: black;
+    font-family: ticker-font;
+    color: #F94F6D;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 90px;
+    padding: 20px 10px 10px 10px;
+    border-radius: 5px;
+    text-align: center;
+    margin: 0 10px;
+    width: 180px;
+}
+
+.point-clickers {
+    margin: 30px;
+    display: flex;
+}
+
+.btn {
+    font-family: ticker-font;
+    background-color: #1B244A;
+    border-color: #EEEEEE;
+    color: inherit;
+    margin: 0 5px;
+    border-radius: 10%;
+    padding: 8px 10px;
+    font-size: 18px;
+    font-weight: lighter;
+}
+
+.btn:active {
+    background-color: #EEEEEE;
+    color:#1B244A
+}
+
+.btn:hover {
+    background-color: #2e3868;
+}
